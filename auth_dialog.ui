@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_auth_code</class>
+ <widget class="QDialog" name="Dialog_auth_code">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(67, 67, 67);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_cancel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>430</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(52, 178, 151);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+}
+
+
+QPushButton:pressed{
+	background-color: rgb(37, 112, 112);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>ОТМЕНА</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>371</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 34pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:792;&quot;&gt;Введите код&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:792;&quot;&gt;аутентификации&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_auth_code">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>230</y>
+     <width>371</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>24</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(157, 157, 157);
+border-radius: 25px;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Код аутентификации..</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_accept">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgb(52, 178, 151);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+}
+
+
+QPushButton:pressed{
+	background-color: rgb(37, 112, 112);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Подтвердить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

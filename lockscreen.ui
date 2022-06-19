@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lockscreen_window</class>
+ <widget class="QMainWindow" name="lockscreen_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>822</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Тестовый Проект</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../AppData/Local/Android_app/icons/window_icon.ico</normaloff>../../AppData/Local/Android_app/icons/window_icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(67, 67, 67);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_enter">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>430</y>
+      <width>351</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(52, 178, 151);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+}
+
+
+QPushButton:pressed{
+	background-color: rgb(37, 112, 112);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>ОК</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_pin">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>371</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>24</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 24pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(157, 157, 157);
+border-radius: 25px;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Введите пароль</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>371</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 34pt &quot;Impact&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:792;&quot;&gt;VkPASS CHANGER&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LOCKED. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ENTER PASSWORD:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_exit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>620</y>
+      <width>351</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(52, 178, 151);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+}
+
+
+QPushButton:pressed{
+	background-color: rgb(37, 112, 112);
+	color: rgb(255, 255, 255);
+	font: 30pt &quot;Impact&quot;;
+	border-radius: 30px;
+	
+}</string>
+    </property>
+    <property name="text">
+     <string>ВЫХОД</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>404</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
